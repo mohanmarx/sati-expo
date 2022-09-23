@@ -9,7 +9,7 @@ import { useSnackbar } from "notistack";
 import axios from "axios";
 
 export const BASE_URL = "https://api.sati.tech/api/v1";
-// export const BASE_URL = "http://localhost:8080/";
+// export const BASE_URL = "http://localhost:8080/api/v1";
 
 const DEFAULT_VARIANT = "success";
 const DEFAULT_TIMEOUT = 4000;
@@ -87,7 +87,7 @@ function Register() {
             <div className="col-xl-4 col-lg-5 col-md-7 mx-auto">
               <div className="card z-index-0">
                 <div className="card-header text-center pt-4">
-                  <h5>Register with us</h5>
+                  <h5>To get a Quote</h5>
                 </div>
                 <div className="card-body pt-0">
                   <form role="form text-left" onSubmit={handleSubmit(onSubmit)}>
@@ -185,7 +185,7 @@ function Register() {
                         type="submit"
                         className="btn bg-gradient-warning w-100 my-4 mb-2"
                       >
-                        Register
+                        Get a Quote
                       </button>
                     </div>
                   </form>
