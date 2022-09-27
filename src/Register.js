@@ -68,7 +68,7 @@ function Register() {
       {loading && <Loader />}
       <section className="min-vh-100 mb-2">
         <div className="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg">
-          <span className="mask bg-gradient-light opacity-1"></span>
+          <span className="mask bg-gradient-light opacity-5"></span>
           <div className="container">
             <div className="row justify-content-center ">
               <div className="col-lg-5 text-center mx-auto">
