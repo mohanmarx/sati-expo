@@ -67,17 +67,14 @@ function Register() {
     <React.Fragment>
       {loading && <Loader />}
       <section className="min-vh-100 mb-2">
-        <div
-          className="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg"
-          style={{ backgroundImage: "url('/curved14.jpg')" }}
-        >
-          <span className="mask bg-gradient-dark opacity-6"></span>
+        <div className="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg">
+          <span className="mask bg-gradient-light opacity-1"></span>
           <div className="container">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center ">
               <div className="col-lg-5 text-center mx-auto">
                 <img className="logo" alt="" src="/logo.svg" />
-                <h1 className="text-white mb-2 mt-5">Welcome!</h1>
-                <h5 className="text-lead text-white">Sati Expo</h5>
+                <h1 className=" mb-2 mt-5">Welcome!</h1>
+                <h5 className="text-lead">Sati Expo</h5>
               </div>
             </div>
           </div>
